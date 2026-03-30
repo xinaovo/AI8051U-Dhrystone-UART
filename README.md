@@ -1,10 +1,10 @@
 # AI8051U Dhrystone
 
-This repository contains Dhrystone benchmark project files for AI8051U MCU.
+This repository contains Dhrystone benchmark project files for STC AI8051U MCU.
 
-The benchmark result is output through `UART 1(P1.6 as RX, P1.7 as TX)` with serial settings `115200 8 N 1`. The MCU should run at 40MHz to match the clock settings of this project.
+The benchmark result is output through `UART 1(P1.6 as RX, P1.7 as TX)` with serial settings `115200 8 N 1`. The MCU should run at 40MHz to match the clock settings of this project. You may use `AI8051U-34K64.cfg` for AI-ISP(formerly STC-ISP) MCU programming software config.
 
-I'm using Dhrystone v2.1 from https://github.com/Keith-S-Thompson/dhrystone . After modifying part of Dhrystone for this cursed platform, it seems to work fine now. An example result is shown below.
+I'm using Dhrystone v2.1 from https://github.com/Keith-S-Thompson/dhrystone for this project. After modifying part of Dhrystone for this cursed platform, it seems to work fine now. An example result is shown below. The development environment of this project is Keil C251. For development environment setup, refer to STC datasheet/user manual for detailed instructions.
 
 ```log
 AI8051U Dhrystone Benchmark
