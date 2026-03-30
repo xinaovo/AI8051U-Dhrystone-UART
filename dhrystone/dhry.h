@@ -436,6 +436,11 @@ typedef struct record
 Enumeration Func_1 (Capital_Letter Ch_1_Par_Val, Capital_Letter Ch_2_Par_Val);
 /* forward declaration necessary since Enumeration may not simply be int */
 Boolean Func_2 (Str_30 Str_1_Par_Ref, Str_30 Str_2_Par_Ref);
+Proc_1 (Rec_Pointer Ptr_Val_Par);
+Proc_2 (One_Fifty* Int_Par_Ref);
+Proc_3 (Rec_Pointer* Ptr_Ref_Par);
+Proc_4 (); /* without parameters */
+Proc_5 (); /* without parameters */
 Proc_6 (Enumeration Enum_Val_Par,Enumeration* Enum_Ref_Par);
 Proc_7 (One_Fifty Int_1_Par_Val, One_Fifty Int_2_Par_Val, One_Fifty* Int_Par_Ref);
 Proc_8 (Arr_1_Dim Arr_1_Par_Ref, Arr_2_Dim Arr_2_Par_Ref, int32 Int_1_Par_Val, int32 Int_2_Par_Val);

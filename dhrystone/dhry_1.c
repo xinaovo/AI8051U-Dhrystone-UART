@@ -16,7 +16,6 @@
  */
 
 #include "dhry.h"
-//extern volatile u32 SysTickMs;
 
 /* Global Variables: */
 
